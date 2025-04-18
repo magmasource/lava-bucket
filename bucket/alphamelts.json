@@ -1,0 +1,71 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "2.3.1",
+    "description": "Text-menu interface to alphaMELTS 2+",
+    "homepage": "https://doi.org/10.5281/zenodo.11406234",
+    "license": "AGPL-3.0-or-later",
+    "notes": "Proper website is work in progress; zenodo link given for source code",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.1/alphamelts-mat-2.3.1-win64.zip"
+            "hash": "a7df461a261ded5347abbd95dd55cbbc489ae9fa7697903a31db8c13e5a5d6c6"
+        },
+        "arm64": {
+            "url": "",
+            "hash": ""
+        }
+    },
+    "depends": "main/perl",
+    "pre_install": "",
+    "installer": {
+        "script": ""
+    },
+    "post_install": [
+        "",
+        ""
+    ],
+    "uninstaller": {
+        "script": ""
+    },
+    "bin": [ 
+	[
+		"alphamelts_win64.exe",
+		"alphamelts.exe"
+	],
+	[
+		"perl.exe",
+		"run_alphamelts.command",
+		"run_alphamelts.command"
+	],
+
+	 ]
+    "env_add_path": [
+        "",
+        ""
+    ],
+    "persist": [
+        "",
+        ""
+    ],
+    "checkver": {
+        "url": "",
+        "regex": ""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": ""
+            },
+            "32bit": {
+                "url": ""
+            },
+            "arm64": {
+                "url": ""
+            }
+        },
+        "hash": {
+            "url": "",
+            "regex": ""
+        }
+    }
+}
