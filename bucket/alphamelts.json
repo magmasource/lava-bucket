@@ -29,16 +29,15 @@
     },
     "bin": [ 
     [
-		"alphamelts_win64.exe",
-		"alphamelts.exe"
-	],
-	[
-		"perl.exe",
-		"run-alphamelts.command",
-		"run-alphamelts.command"
-	],
-
-	 ]
+        "alphamelts_win64.exe",
+        "alphamelts.exe"
+    ],
+    [
+        "perl.exe",
+        "run-alphamelts.command",
+        "run-alphamelts.command"
+    ]
+    ],
     "env_add_path": [
         "",
         ""
