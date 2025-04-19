@@ -12,7 +12,7 @@
     "bin": [
     [
         "alphamelts_win64.exe",
-        "alphamelts"
+        "alphamelts2"
     ],
     [
         "perl",
@@ -22,7 +22,7 @@
     ],
     "shortcuts": [
     [
-        "alphamelts.exe",
+        "alphamelts2.exe",
         "alphamelts"
     ],
     [
