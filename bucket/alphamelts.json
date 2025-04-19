@@ -12,12 +12,12 @@
     "bin": [
     [
         "alphamelts_win64.exe",
-        "alphamelts.exe"
+        "alphamelts"
     ],
     [
         "perl",
         "run-alphamelts.command",
-        "run-alphammelts.command"
+        "run-alphamelts.command"
     ]
     ],
     "shortcuts": [
