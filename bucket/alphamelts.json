@@ -7,7 +7,7 @@
     "notes": "Proper website is work in progress; zenodo link given for source code",
     "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.1/alphamelts-app-2.3.1-win64.zip",
     "hash": "a7df461a261ded5347abbd95dd55cbbc489ae9fa7697903a31db8c13e5a5d6c6",
-    "extract_to": "alphamelts-app-2.3.1-win64"
+    "extract_to": "alphamelts-app-2.3.1-win64",
     "depends": "perl",
     "bin": [
     [
