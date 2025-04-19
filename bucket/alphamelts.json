@@ -15,6 +15,11 @@
         "alphamelts2"
     ],
     [
+        "run-alphamelts.command",
+        "run-alphamelts"
+    ]
+    ],
+    [
         "perl",
         "run-alphamelts.command",
         "run-alphamelts.command"
@@ -22,11 +27,11 @@
     ],
     "shortcuts": [
     [
-        "alphamelts2.exe",
+        "alphamelts_win64.exe",
         "alphamelts"
     ],
     [
-        "run-alphammelts.command",
+        "run-alphamelts.shim",
         "run-alphamelts"
     ]
     ]
