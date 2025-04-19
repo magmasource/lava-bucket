@@ -19,8 +19,9 @@
         "alphamelts.exe"
     ],
     [
-        "perl run-alphammelts.command",
-        "run-alphamelts.command"
+        "perl",
+        "run-alphamelts.command",
+        "run-alphammelts.command"
     ]
     ],
     "shortcuts": [
