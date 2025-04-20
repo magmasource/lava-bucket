@@ -36,11 +36,5 @@
         "    $content = $content.Replace(\"$_\", \"$dir\\$_\")",
         "    Set-Content \"$scoopdir\\shims\\$_.shim\" $content -Encoding Ascii",
         "}"
-    ],
-    "shortcuts": [
-    [
-        "run-alphamelts.exe",
-        "alphamelts"
-    ]
     ]
 }
