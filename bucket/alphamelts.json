@@ -25,6 +25,7 @@
         "'run-alphamelts' | ForEach-Object {",
         "    $content = Get-Content \"$scoopdir\\shims\\$_.shim\"",
         "    $content = $content.Replace(\"$_\", \"$alphamelts_dir\\$_.command\")",
+        "    Set-Content \"$scoopdir\\shims\\$_.shim\" $content -Encoding Ascii",
         "}"
     ],
     "shortcuts": [
