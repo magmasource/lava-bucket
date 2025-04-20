@@ -32,7 +32,7 @@
     "post_install": [
         "'run-alphamelts', 'column-pick', 'file-format' | ForEach-Object {",
         "    $content = Get-Content \"$scoopdir\\shims\\$_.shim\"",
-        "    $content = $content.Replace(\"$_\", \\"\"$dir\\$_.command\"\\")",
+        "    $content = $content.Replace(\"$_\", \\\\"\"$dir\\$_.command\"\\\\")",
         "    Set-Content \"$scoopdir\\shims\\$_.shim\" $content -Encoding Ascii",
         "}"
     ],
