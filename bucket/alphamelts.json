@@ -26,7 +26,7 @@
         "    $content = Get-Content \"$scoopsdir\\shims\\$_.exe\"",
         "    $content = $content.Replace('$_', \"$alphamelts_dir\\$_.command\")",
         "}"
-    ]
+    ],
     "shortcuts": [
     [
         "run-alphamelts.command",
