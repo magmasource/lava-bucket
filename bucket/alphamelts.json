@@ -16,10 +16,17 @@
     ],
     [
         "perl",
-        "run-alphamelts.command",
-        "$extract_to.run-alphamelts.command"
+        "run-alphamelts",
+        "run-alphamelts.command'"
     ]
     ],
+    "post_install": [
+        "$alphamelts_dir = \"$dir\".Replace('\\', '\\\\')",
+        "'run-alphamelts' | ForEach-Object {",
+        "    $content = Get-Content \"$scoopsdir\\shims\\$_.exe\"",
+        "    $content = $content.Replace('$_', \"$alphamelts_dir\\$_.command\")",
+        "}"
+    ]
     "shortcuts": [
     [
         "run-alphamelts.command",
