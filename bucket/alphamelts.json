@@ -15,7 +15,7 @@
             "hash": 5e95e3fa0da4f2723030addc4da7759cc973e6f02d1a3b06b01352f473241b5c",
             "extract_dir": "lphamelts-app-2.3.2-win64-aarch64"
         }
-    },        
+    },
     "depends": "perl",
     "bin": [
     [
