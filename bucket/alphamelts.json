@@ -13,7 +13,7 @@
         "arm64": {
             "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.2-beta.0/alphamelts-app-2.3.2-win64-aarch64.zip",
             "hash": "5e95e3fa0da4f2723030addc4da7759cc973e6f02d1a3b06b01352f473241b5c",
-            "extract_dir": "lphamelts-app-2.3.2-win64-aarch64"
+            "extract_dir": "alphamelts-app-2.3.2-win64-aarch64"
         }
     },
     "depends": "perl",
