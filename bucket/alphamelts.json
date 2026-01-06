@@ -7,12 +7,12 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.2-beta.0/alphamelts-app-2.3.2-win64-x86_64.zip",
-            "hash": 9d151a26fb2225c061622f519b9c208c8444d26eea5f00784d8f9b965ca75671",
+            "hash": "9d151a26fb2225c061622f519b9c208c8444d26eea5f00784d8f9b965ca75671",
             "extract_dir": "alphamelts-app-2.3.2-win64-x86_64"
         },
         "arm64": {
             "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.2-beta.0/alphamelts-app-2.3.2-win64-aarch64.zip"
-            "hash": 5e95e3fa0da4f2723030addc4da7759cc973e6f02d1a3b06b01352f473241b5c",
+            "hash": "5e95e3fa0da4f2723030addc4da7759cc973e6f02d1a3b06b01352f473241b5c",
             "extract_dir": "lphamelts-app-2.3.2-win64-aarch64"
         }
     },
