@@ -1,18 +1,18 @@
 {
-    "version": "2.3.2-beta.0",
+    "version": "2.3.2",
     "description": "Text-menu interface to alphaMELTS 2+",
     "homepage": "https://github.com/magmasource/MAGMA/",
     "license": "AGPL-3.0-or-later",
     "notes": "Proper website is work in progress; repository link is given for source code",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.2-beta.0/alphamelts-app-2.3.2-win64-x86_64.zip",
-            "hash": "9d151a26fb2225c061622f519b9c208c8444d26eea5f00784d8f9b965ca75671",
+            "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.2/alphamelts-app-2.3.2-win64-x86_64.zip",
+            "hash": "d45ddd6885191253512bed00ddcbb5a00a20441397da2b19160da8885c567329",
             "extract_dir": "alphamelts-app-2.3.2-win64-x86_64"
         },
         "arm64": {
-            "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.2-beta.0/alphamelts-app-2.3.2-win64-aarch64.zip",
-            "hash": "5e95e3fa0da4f2723030addc4da7759cc973e6f02d1a3b06b01352f473241b5c",
+            "url": "https://github.com/magmasource/alphaMELTS/releases/download/v2.3.2/alphamelts-app-2.3.2-win64-aarch64.zip",
+            "hash": "f663bd2b2e044e4aebcd5810920ddc8b4d7ab55c7d180aa021ab6e4234077c7c",
             "extract_dir": "alphamelts-app-2.3.2-win64-aarch64"
         }
     },
